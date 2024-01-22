@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"folderPath": "Observation/Processed",
 				"fileSystem": "data22jan"
 			},
 			"columnDelimiter": ",",
