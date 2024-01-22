@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "synapse22jan"
+		},
+		"ADLSGen2_properties_typeProperties_url": {
+			"value": "https://datastore22jan.dfs.core.windows.net/"
+		},
+		"Ingest Sourcedata_properties_typeProperties_url": {
+			"value": "https://synthetichealth.github.io/synthea-sample-data/downloads/latest/synthea_sample_data_csv_latest.zip"
+		}
+	}
+}
