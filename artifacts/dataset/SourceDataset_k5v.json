@@ -1,0 +1,61 @@
+{
+	"name": "SourceDataset_k5v",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ingest Sourcedata",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"compressionCodec": "ZipDeflate",
+			"compressionLevel": "Fastest",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "START",
+				"type": "String"
+			},
+			{
+				"name": "STOP",
+				"type": "String"
+			},
+			{
+				"name": "PATIENT",
+				"type": "String"
+			},
+			{
+				"name": "ENCOUNTER",
+				"type": "String"
+			},
+			{
+				"name": "CODE",
+				"type": "String"
+			},
+			{
+				"name": "DESCRIPTION",
+				"type": "String"
+			},
+			{
+				"name": "BASE_COST",
+				"type": "String"
+			},
+			{
+				"name": "REASONCODE",
+				"type": "String"
+			},
+			{
+				"name": "REASONDESCRIPTION",
+				"type": "String"
+			}
+		]
+	}
+}
